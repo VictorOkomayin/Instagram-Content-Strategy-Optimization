@@ -2,18 +2,22 @@
 ![](https://github.com/VictorOkomayin/Files/blob/main/content%20strategy.png)
 
 ## Project Details
-- Tool(s): PowerBI
+- Industry: Digital Marketing/Socia Media
+- Tool(s): PowerBi, Power Query
 - Data source: [Amanxai.com](https://amanxai.com/2025/01/06/instagram-content-strategy-optimization-with-python/)
 - Period covered: 2024
+- Role- Data Analyst/Strategy Consultant
 - Inspired by: Aman Kharwal
 
-# Introduction
-Content optimization refers to the process of improving the quality, relevance, and visibility of online content to increase its effectiveness in achieving specific goals, such as: search engine ranking, user engagement, conversion rate optimization etc. The dataset encompasses Instagram posts from a data-driven professional featuring projects and works in data science, AI/ML, DevOps, Algorithm development etc. The dataset contains detailed information about 446 Instagram posts, including post types (Reels, Carousels, Images), timestamps, engagement metrics, and post descriptions.
+# Project Background 
+Instagram plays a pivotal role in digital storytelling and brand visibility, especially within tech and education communities. However, content creators often struggle to optimize engagement. The dataset encompasses Instagram posts from a data-driven professional featuring projects and works in data science, AI/ML, DevOps, Algorithm development etc. The dataset contains detailed information about 446 (446 rows by 16 columns) Instagram posts, including post types (Reels, Carousels, Images), timestamps, engagement metrics, and post descriptions.
 
   ## Aim:
   - To leverage data-driven insights to optimize engagement metrics like Impressions, Reach, Follows, Shares, Likes, Comments and Plays.
-  ## Analysis Objective: 
-  - Harness data-driven insights to optimize engagement metrics, boosting content effectiveness and audience interaction. By doing so, we       aim to inform a strategic content approach that resonates with the target audience and amplifies the professional's online presence.
+  ## Objectives: 
+  - Identify key factors influencing post engagement(Impressions, Reach, Shares, Likes, etc.)
+  - Analyze perfomance trends across different post types, topics, and time slots.
+  - Harness data-driven insights to optimize engagement metrics, boosting content effectiveness and audience interaction. By doing so, we aim to inform a strategic content approach that resonates with the target audience and amplifies the professional's online presence.
   ## Scope:
   
   - Identifying High-Performing Post Types: Determine which content formats (e.g., images, videos, reels, carousels) drive the most engagement and visibility.
@@ -25,15 +29,11 @@ Content optimization refers to the process of improving the quality, relevance, 
 
 # Data Preprocessing Steps
 - Downloaded csv format of dataset from [Amanxai.com](https://amanxai.com/2025/01/06/instagram-content-strategy-optimization-with-python/)
-- Imported data into Power Query Editor for transformation and loading.
+- Imported raw post data into Power Query Editor for transformation and loading.
 - Used first rows as column headers
 - Checked for column profile, quality, and distribution to ensure there were no outliers.
 - Replaced null values
-- Extracted day, month, and year from the date column for trend analysis using the FORMAT function
-## Month Extraction Code
-  powerquery 
-  Month = FORMAT(Instagram_Data[Publish_time.1], "MMM")
-
+- Extracted temporal features: day, month, and year from the date column for trend analysis using the FORMAT function
 - Sorted the month column by month number.
 - Categorised the time column into hour of the day
 - Categorised the posts topics for text analysis using the SWITCH function.
