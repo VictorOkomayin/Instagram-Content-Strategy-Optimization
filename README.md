@@ -30,6 +30,10 @@ Content optimization refers to the process of improving the quality, relevance, 
 - Checked for column profile, quality, and distribution to ensure there were no outliers.
 - Replaced null values
 - Extracted day, month, and year from the date column for trend analysis using the FORMAT function
+## Month Extraction Code
+  powerquery 
+  Month = FORMAT(Instagram_Data[Publish_time.1], "MMM")
+
 - Sorted the month column by month number.
 - Categorised the time column into hour of the day
 - Categorised the posts topics for text analysis using the SWITCH function.
