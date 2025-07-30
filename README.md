@@ -14,11 +14,13 @@ Content optimization refers to the process of improving the quality, relevance, 
   ## Analysis Objective: 
   - Harness data-driven insights to optimize engagement metrics, boosting content effectiveness and audience interaction. By doing so, we       aim to inform a strategic content approach that resonates with the target audience and amplifies the professional's online presence.
   ## Scope:
-  - Identify high performing post types
-  - Optimal posting times
-  - Topics of most interaction
-  - Analyze seasonal trends
-  - Define a dynamic posting strategy
+  
+  - Identifying High-Performing Post Types: Determine which content formats (e.g., images, videos, reels, carousels) drive the most engagement and visibility.
+  - Optimal Posting Times: Analyze audience activity and engagement patterns to identify the best times to post for maximum reach and impact.
+  - Topics of Most Interaction: Discover which topics and themes resonate most with the audience, sparking meaningful interactions and engagement.
+  - Analyzing Seasonal Trends: Examine how engagement metrics fluctuate over time, identifying seasonal patterns and trends that inform content planning.
+  - Defining a Dynamic Posting Strategy: Based on insights gathered, develop a flexible and adaptive content strategy that optimizes post types, timing, and topics to maximize audience       engagement and growth.
+
 
 # Data Preprocessing Steps
 - Imported data into power query editor
