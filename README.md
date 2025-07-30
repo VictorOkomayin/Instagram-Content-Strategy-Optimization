@@ -3,11 +3,12 @@
 
 ## Project Details
 - Tool(s): PowerBI
-- Data source: statso.io
+- Data source: [Amanxai.com](https://amanxai.com/2025/01/06/instagram-content-strategy-optimization-with-python/)
 - Period covered: 2024
+- Inspired by: Aman Kharwal
 
 # Introduction
-Content optimization refers to the process of improving the quality, relevance, and visibility of online content to increase its effectiveness in achieving specific goals, such as: search engine ranking, user engagement, conversion rate optimization etc. The dataset encompasses Instagram posts from a data-driven professional featuring projects and works in data science, AI/ML, DevOps, Algorithm development etc. Engagement metrics include Impressions, Reach, Likes, Follows, Comments, Shares, Saves and Plays. 
+Content optimization refers to the process of improving the quality, relevance, and visibility of online content to increase its effectiveness in achieving specific goals, such as: search engine ranking, user engagement, conversion rate optimization etc. The dataset encompasses Instagram posts from a data-driven professional featuring projects and works in data science, AI/ML, DevOps, Algorithm development etc. The dataset contains detailed information about 446 Instagram posts, including post types (Reels, Carousels, Images), timestamps, engagement metrics, and post descriptions.
 
   ## Aim:
   - To leverage data-driven insights to optimize engagement metrics like Impressions, Reach, Follows, Shares, Likes, Comments and Plays.
@@ -45,7 +46,7 @@ Content optimization refers to the process of improving the quality, relevance, 
 # Key Findings
  
   ### Post Type Performance: 
-  - IG Image posts generate the most impressions and reach, followed by IG Reel and Carousel.
+   - IG Image posts generate the most impressions and reach, though their results are influenced by promotions. Reels perform best in terms of engagement metrics, particularly in likes (1.1k), saves (600), and comments (14). While IG carousels have higher impressions (27k) and reach (22k) compared to reels, the reels drive more active user engagement. It suggests that reels are the most effective content type for organic engagement, while carousels are better for visibility.
   - IG Reels drive the most new follows (47.45%), IG Image (34.65%), and IG Carousel (17.9%) indicating their effectiveness in attracting new audiences.
   ### Optimal Timing:
   - Peak hours for engagement are between 3:00 AM - 9:00 AM and 9:00 PM - 11:00 PM, suggesting our audience is primarily working professionals with limited free time during the day.
