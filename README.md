@@ -24,14 +24,15 @@ Content optimization refers to the process of improving the quality, relevance, 
 
 
 # Data Preprocessing Steps
-- Imported data into power query editor
-- Changed first rows into column headers
-- Checked for column profile, quality, and distribution.
+- Downloaded csv format of dataset from [Amanxai.com](https://amanxai.com/2025/01/06/instagram-content-strategy-optimization-with-python/)
+- Imported data into Power Query Editor for transformation and loading.
+- Used first rows as column headers
+- Checked for column profile, quality, and distribution to ensure there were no outliers.
 - Replaced null values
-- Extracted day, month, and year from the date column for trend analysis
-- Sorted the month column by month number
+- Extracted day, month, and year from the date column for trend analysis using the FORMAT function
+- Sorted the month column by month number.
 - Categorised the time column into hour of the day
-- Categorised the posts for text analysis
+- Categorised the posts topics for text analysis using the SWITCH function.
 - Categorised the date column into week of the year
   
 # Dashboard Overview
