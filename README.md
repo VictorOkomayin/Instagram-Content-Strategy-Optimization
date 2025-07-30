@@ -1,5 +1,4 @@
 # Instagram-Content-Strategy-Optimization
-![](https://github.com/VictorOkomayin/Files/blob/main/content%20strategy.png)
 
 ## Project Details
 - Industry: Digital Marketing/Socia Media
